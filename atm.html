@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+    <head>
+        <title>ATM money dispenser</title>
+        <link rel="stylesheet" type="text/css" href="styles.css"/>
+    </head>
+
+    <body>
+        <header>ATM Money Dispenser</header>
+
+        <main>
+            <section class="form-section">
+                <h1>Welcome to ATM</h1>
+                <form>
+                    <label>Enter the amount</label>
+                    <input type="number" id="amount" placeholder="Enter the amount">
+                    <button id="button" class="button primary-color">Get Money</button>
+                </form>
+            </section>
+
+            <section>
+                <h4>You will get following amount</h4>
+                <ul id="notesList">
+                </ul>
+                <h4>Total notes dispensed: <span id="totalNotes">0</span></h4>
+            </section>
+        </main>
+
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>
